@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
   <title>Научиться учиться</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Научиться учиться" />
@@ -25,8 +25,8 @@
     </header>
     <main class="content">
       <section class="description content__description">
-        <div class="two-columns content__two-columns">
-          <p class="two-columns__brief">Главные проблемы в обучении</p>
+        <div class="two-columns description__two-columns">
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
                 Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
@@ -139,39 +139,45 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </div>
         </div>
-        <img src="./images/kaufman-triangle.svg" alt="Треугольник" class="kaufman__triangle">
+        <div class="kaufman__triangle"></div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__column_content_copyright">
-          <img src="./images/logo_place_footer.svg" alt="Темный логотип Яндекс Практикума" class=" logo logo__place_footer">
+        <div class="footer__columns_content_copyright">
+          <img src="./images/logo_place_footer.svg" alt="Темный логотип Яндекс Практикума" class=" logo logo_place_footer">
           <p class="footer__author">&COPY;2020. Анастасия Гааг</p>
         </div>
-        <div class="footer__column_content_info">
-          <h5 class="footer__column-heading">О Практикуме</h5>
-          <div class="footer__column-links">
-            <a class="footer__link" href="#">Главная</a>
-            <a class="footer__link" href="#">Концепция</a>
-            <a class="footer__link" href="#">Наставники</a>
-          </div>
-        </div>
-        <div class="footer__column_content_social">
-          <h5 class="footer__column-heading">Соцсети</h5>
-          <div class="footer__social-icon">
-            <a class="footer__link" href="#">
-              <img src="./images/facebook_color_white.svg" alt="Логотип Facebook" class="footer__link_icon">
-              Facebook
-            </a>
-            <a class="footer__link" href="#">
-              <img src="./images/vk_color_white.svg" alt="Логотип ВКонтакте" class="footer__link_icon">
-              ВКонтакте
-            </a>
-            <a class="footer__link" href="#">
-              <img src="./images/instagram_color_white.svg" alt="Логотип Instagram" class="footer__link_icon">
-              Instagram
-            </a>
-          </div>
+        <nav class="footer__columns_content_info">
+          <h4 class="footer__column-heading">О Практикуме</h4>
+          <ul class="footer__column-links">
+            <li><a class="footer__link" href="#">Главная</a></li>
+            <li><a class="footer__link" href="#">Концепция</a></li>
+            <li><a class="footer__link" href="#">Наставники</a></li>
+          </ul>
+        </nav>
+        <div class="footer__columns_content_social">
+          <h4 class="footer__column-heading">Соцсети</h4>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__link" href="#">
+                <img src="./images/facebook_color_white.svg" alt="Логотип Facebook" class="footer__social-icon">
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a class="footer__link" href="#">
+                <img src="./images/vk_color_white.svg" alt="Логотип ВКонтакте" class="footer__social-icon">
+                ВКонтакте
+              </a>
+            </li>
+            <li>
+              <a class="footer__link" href="#">
+                <img src="./images/instagram_color_white.svg" alt="Логотип Instagram" class="footer__social-icon">
+                Instagram
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
